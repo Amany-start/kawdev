@@ -1,3 +1,5 @@
+export const revalidate = 0;
+
 "use client";
 import { useState, useEffect } from "react";
 import { createClient } from "@supabase/supabase-js";

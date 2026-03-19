@@ -190,9 +190,9 @@ const Hero = () => {
 const Credibility = () => {
   const { ref, visible } = useFadeIn();
   const badges = [
-    { icon: "🏆", label: "Lauréat International Robotics Cup" },
-    { icon: "🎓", label: "Certifié Fab Academy — MIT" },
-    { icon: "⚙️", label: "Ingénieur Mécatronique" },
+    { icon: "🏆", label: "Lauréat International et national Technoxian Robotics Cup" },
+    { icon: "🎓", label: "Certifié Fab Academy MIT Boston" },
+    { icon: "⚙️", label: "Ingénieur Mécatronique ESIGELEC/INP-HB" },
   ];
   return (
     <section ref={ref as React.RefObject<HTMLElement>} className="relative z-10 py-24 px-6">
@@ -217,7 +217,7 @@ const Credibility = () => {
               Kouassi Amany Williams
             </h2>
             <p className="text-white/60 text-sm font-medium mb-6">
-              Ingénieur Mécatronique · Builder IA · Prompt Engineer
+              Ingénieur Mécatronique et Robotique · Builder IA · Prompt Engineer
             </p>
             {/* Badges crédibilité */}
             <div className="flex flex-wrap gap-2 justify-center md:justify-start">

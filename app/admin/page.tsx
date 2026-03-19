@@ -208,13 +208,17 @@ const ContentEditor = () => {
     supabase.from("site_content").select("*").then(({ data }) => setContents(data || []));
   }, []);
 
-  const updateContent = async (id: string, value: string) => {
+ const updateContent = async (id: string, value: string) => {
     setSaving(id);
     await supabase.from("site_content").update({ value, updated_at: new Date().toISOString() }).eq("id", id);
+    await fetch("/api/revalidate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ secret: "kawdev2026" }),
+    });
     setSaving(null); setSaved(id);
     setTimeout(() => setSaved(null), 2000);
   };
-
   const labels: Record<string, string> = {
     hero_title: "Titre principal (Hero)",
     hero_subtitle: "Sous-titre (Hero)",

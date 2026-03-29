@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "KAW.DEV — Masterclass Prompt Engineering",
-  description: "Maîtrisez le Prompt Engineering comme un Ingénieur. Multipliez votre productivité par 10×. Formation par Kouassi Amany Williams, Ingénieur Mécatronique, Certifié MIT.",
+  title: " Prompt Engineering",
+  description: "Maîtrisez le Prompt Engineering comme un Ingénieur. Multipliez votre productivité.",
   keywords: "prompt engineering, formation IA, LLM, ingénieur, masterclass",
   openGraph: {
     title: "Prompt Engineering",

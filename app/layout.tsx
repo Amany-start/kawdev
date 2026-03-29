@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   description: "Maîtrisez le Prompt Engineering comme un Ingénieur. Multipliez votre productivité par 10×. Formation par Kouassi Amany Williams, Ingénieur Mécatronique, Certifié MIT.",
   keywords: "prompt engineering, formation IA, LLM, ingénieur, masterclass",
   openGraph: {
-    title: "KAW.DEV — Masterclass Prompt Engineering",
-    description: "Maîtrisez le Prompt Engineering comme un Ingénieur. Formation par Kouassi Amany Williams.",
+    title: "Prompt Engineering",
+    description: "Maîtrisez le Prompt Engineering comme un Ingénieur.",
     url: "https://kawdev.tech",
     siteName: "KAW.DEV",
     type: "website",
